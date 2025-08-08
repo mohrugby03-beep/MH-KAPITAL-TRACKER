@@ -1,0 +1,18 @@
+Title,Description,Labels,Milestone
+Set up GitHub repository and CI/CD,"Initialize project repo, add GitHub Actions for Node.js and Flutter","infra, setup",Milestone 1
+Provision cloud infrastructure,"Deploy backend and DB on Render or Railway, enable Redis","infra, backend",Milestone 1
+Scaffold NestJS backend,Create base modules and folder structure,"backend, setup",Milestone 1
+Implement user authentication,"Add JWT login/register, hash passwords, validate sessions","backend, auth",Milestone 1
+Design PostgreSQL schema,"Create DB models for users, portfolios, transactions, etc.","backend, db",Milestone 2
+Implement transaction API,CRUD endpoints for buy/sell transactions,"backend, api",Milestone 2
+Set up stock price sync job,Daily cron job to sync prices from Twelve Data,"backend, api",Milestone 2
+Create portfolio calculation logic,"Compute value, ROI, and dividend yield","backend, logic",Milestone 2
+Build React dashboard,"Summary cards, charts, transaction list","frontend, web",Milestone 3
+Implement transaction form (Web),Add UI to enter buy/sell transactions,"frontend, web",Milestone 3
+Create Flutter app scaffold,Set up Flutter project and base navigation,"frontend, mobile",Milestone 4
+Connect mobile to backend,"Login, fetch portfolios, display dashboard","frontend, mobile",Milestone 4
+Add push notification setup,Use Firebase or OneSignal to send alerts,"frontend, mobile",Milestone 4
+Export data to CSV,Endpoint + UI to export transactions,"backend, enhancement",Milestone 5
+Enable 2FA for login,"Add TOTP (e.g., Authy) to backend auth","security, backend",Milestone 5
+Implement chart interactivity,"Zoom, hover tooltips, time filters","frontend, enhancement",Milestone 5
+Perform security testing,Check OWASP Top 10 vulnerabilities,"security, QA",Milestone 5
